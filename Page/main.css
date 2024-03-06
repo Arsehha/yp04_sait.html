@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.alingcentre{
+    text-align: center;
+}
+header{
+    background-color: #fffacf;
+    color: #8c5353;
+}
+main {
+    background-color: #8c5353;
+    color: #fffacf;
+}
+footer{
+    background-color: #fffacf;
+    color: #8c5353;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.sub1{
+    color: red;
+    cursor: default;
+}

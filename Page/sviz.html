@@ -1,18 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <style>
     .alingcentre{
         text-align: center;
-    }
-    header{
-        background-color: white;
     }
     main {
         background-color: black;
         color: white;
     }
-    footer{
-        background-color: white;
+    .sub1{
+        color: red;
+        cursor: default;
     }
 </style>
 <head>
@@ -34,7 +32,25 @@
     </div>
 </header>
 <main>
-
+    <h1>Обратная связь</h1>
+    <form>
+        <lebel for="first name">Имя <sup class="sub1" title="Обязательно к заполнению">*</sup></lebel>
+        <input type="text" required name="first name" placeholder="Имя">
+        <lebel for="second name">Фамилия <sup class="sub1" title="Обязательно к заполнению">*</sup></lebel>
+        <input type="text" required name="second name" placeholder="Фамилия">
+        <br>
+        <lebel for="email">Почта<sup class="sub1" title="Обязательно к заполнению">*</sup></lebel>
+        <input type="email" required name="email" placeholder="Почта" title="Обязательно должен быть значок @">
+        <br>
+        <label>Выберите ваш любимый цвет</label>
+        <input type="color">
+        <br>
+        <lebel for="message">Сообщение<sup class="sub1" title="Обязательно к заполнению">*</sup></lebel>
+        <br>
+        <input type="text" required name="message" placeholder="Сообщение для администрации" style="width: 600px; height: 100px">
+        <br>
+        <input type="submit" value="Отправить">
+    </form>
 </main>
 <footer>
     <div class="alingcentre">
